@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(27, 27, 240);
+}
+button{
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    margin-top: 15px;
+    background-color: #c0bebe;
+    border-color: #c0bebe;
+
+}
+
+button{
+    text-align: center;
+}
+
+button.btn:hover span.titulo{
+    display: none;
+}
+
+button.btn:hover:before{
+    content: "ataKKKKKKK";
+}
+
+button.btn2:hover span.titulo2{
+    display: none;
+}
+
+button.btn2:hover:before{
+    content: "vc não tem opção mesmo";
+    font-size: 15px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
